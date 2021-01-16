@@ -9,7 +9,13 @@ springdoc:
         enabled: true
         path: /swagger-ui-custom.html
     version: 1.0.0
-
+star-wars:
+    base-url: https://swapi.dev/api/
+feign:
+    compression:
+        request:
+            enabled: true
+            mime-types: application/json
 server:
     connection-timeout: 300000
     servlet:
